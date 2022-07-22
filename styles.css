@@ -63,11 +63,15 @@ body {
 #creator {
     text-align: left;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .avatar {
     width: 2em;
     border-radius: 100px;
+    margin-right: 0.5rem;
 }
 
 .creator-name {
@@ -78,6 +82,10 @@ body {
 .creator-name:hover {
     color: white;
     cursor: pointer;
+}
+
+#creator a {
+    margin-left: 0.5rem;
 }
 
 .attribution {
